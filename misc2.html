@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>html forms</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <!-- working with forms -->
+    <form>
+        username:
+        <input type="text" name="username"/>
+    </form>
+    
+    <form>
+        favorite food:
+        <input type="text" name = "username"/>
+    </form>
+
+    <form>
+        <p>username:
+        <input type="text" name="username"/>
+        </p>  
+
+        <p>password:
+        <input type="password" name="password" maxlength="2"/>
+        </p> 
+
+        <p>
+        leave your comment here:
+        <textarea name="comment" cols="10" rows="10"></textarea>
+        </p>
+
+        <p>
+        what is your favorite city to visit:<br>
+        <input type="radio" name="city" value="chicago">Chicago
+        <input type="radio" name="city" value="miami">Miami
+        <input type="radio" name="city" value="california" checked="checked">California
+        </p>
+
+        <p>
+        what is favorite music genre:<br>
+        <input type="checkbox" name="genre" value="rock">rock 
+        <input type="checkbox" name="genre" value="pop">pop
+        <input type="checkbox" name="genre" value="jazz" checked="checked">jazz
+        </p>
+        
+        <p>
+        what device do you listen to music on<br>
+        <select name="devices">
+            <option value="ipod">ipod</option>    
+            <option value="radio">radio</option>
+            <option value="computer">computer</option>
+        </select>
+        </p>
+        
+        <p>
+        what country you have visited<br>
+        <select name="countries" size="4" multiple="multiple">
+            <option value="peru">peru</option>    
+            <option value="colombia">colombia</option>
+            <option value="canada">canada</option>
+            <option value="brazil">brazil</option>
+            <option value="italy">italy</option>
+        </select>
+        </p>
+        
+        <p>
+        subscribe to our mailing list<br>
+        <input type="text" name="email">
+        <input type="submit" name="subscribe" value="Subscribe">
+        </p>
+        
+    </form>
+
+
+
+
+</body>
+</html>
