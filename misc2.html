@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title>html forms</title>
@@ -7,21 +7,29 @@
 <body>
 
     <!-- working with forms -->
-    <form>
-        username:
-        <input type="text" name="username"/>
-    </form>
-    
-    <form>
-        favorite food:
-        <input type="text" name = "username"/>
+    <form action="process.php" method="post">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName"/>
+        </div>
+        <br />
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName"/>
+        </div>
+        <br />
+        <div>
+            <label>Email</label>
+            <input type="email" name="email"/>
+        </div>
+        <br />
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
     </form>
 
     <form>
-        <p>username:
-        <input type="text" name="username"/>
-        </p>  
-
         <p>password:
         <input type="password" name="password" maxlength="2"/>
         </p> 

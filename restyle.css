@@ -1,6 +1,5 @@
 
-body 
-{
+body {
     background-color: #f4f4f4;
     color: #555555;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +13,14 @@ body
 
 body h1
 {
-    text-align:center;
+    text-align:left;
 }
 
-#img-full
-{
-    width:100%;
-    height:100%;
-    border:dotted;
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+    list-style:square;
 }
 
 .block {
